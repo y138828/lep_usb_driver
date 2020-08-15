@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.4.0-42-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-5.4.0-42-generic/arch/x86/include",
+                "/usr/src/linux-headers-5.4.0-42-generic/include"
+            ],
+            "defines": [
+                "__KERNEL__=1",
+                "MODULE=1",
+                "DEVMODE=1",
+                "__USE_GNU=1",
+                "CONFIG_KPROBES=1",
+                "CONFIG_STACKTRACE=1",
+                "CONFIG_THREAD_INFO_IN_TASK=1",
+                "CONFIG_AUDIT=1"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "aa",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
